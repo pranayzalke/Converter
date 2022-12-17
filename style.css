@@ -1,9 +1,23 @@
+body{
+    background:linear-gradient(rgb(200, 194, 194),rgba(137, 171, 170, 0.741),rgba(0, 0, 0, 0.906))
+}
+
 .wrapper{
-    width: 70%;
+    width: 50%;
+    height:50vh;
     margin: 100px auto;
     box-shadow: 0px 6px 12px grey;
-    padding: 50px 20px;
+    padding: 60px 20px;
     text-align: center;
+
+}
+
+
+#converter{
+ font-style: italic;
+ letter-spacing: 2px;
+ font-size: 40px;
+    
 }
 .inputs{
     display: flex;
