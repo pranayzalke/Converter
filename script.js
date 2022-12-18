@@ -3,6 +3,14 @@ let to = document.getElementById("to")
 let inputNumber = document.getElementById("input-number")
 let resultBox = document.getElementById("result-box")
 
+var content = document.getElementsByTagName('body')[0];
+var darkMode = document.getElementById('dark-change');
+darkMode.addEventListener('click',function(){
+    darkMode.classList.toggle('active');
+    content.classList.toggle('night');
+})
+
+
 document.getElementById("convert").addEventListener("click",()=>{
     //check from
 let fromValue = from.value
@@ -28,3 +36,5 @@ document.getElementById("swap").addEventListener("click",()=>{
     from.value = to.value
     to.value=temp
 })
+
+
